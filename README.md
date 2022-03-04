@@ -9,7 +9,7 @@ You can also change the output `path`.
 // package.json
   "scripts": {
     ...
-    "convert": "node wordingSync.js"
+    "convert": "node jsonConverter.js"
   },
   ...
   "converter": {
@@ -89,7 +89,7 @@ Use `#` to mark the index of the array.
 // package.json
   "scripts": {
     ...
-    "convert": "node wordingSync.js"
+    "convert": "node jsonConverter.js"
   },
   ...
   "converter": {
