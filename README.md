@@ -28,11 +28,11 @@ npm run start
 ---
 ## Example
 ### Nested Objects
-| A | B | C |
-|---|---|---|
-| foo | bar |  |
-| parent | child_a | Peter |
-| parent | child_b | Tom |
+|   | A | B | C |
+|---|---|---|---|
+| 1 | foo | bar |  |
+| 2 | parent | child_a | Peter |
+| 3 | parent | child_b | Tom |
 
 
 ```sh
@@ -48,14 +48,14 @@ npm run start
 
 ### Arrays
 Use `#` to mark the index of the array.
-| A | B | C | D |
-|---|---|---|---|
-| store | fruit#0 | apple |  |
-| store | fruit#1 | banana |  |
-| store | food#0 | name | hot dog |
-| store | food#0 | price | 10 |
-| store | food#1 | name | soda |
-| store | food#1 | price | 5 |
+|   | A | B | C | D |
+|---|---|---|---|---|
+| 1 | store | fruit#0 | apple |  |
+| 2 | store | fruit#1 | banana |  |
+| 3 | store | food#0 | name | hot dog |
+| 4 | store | food#0 | price | 10 |
+| 5 | store | food#1 | name | soda |
+| 6 | store | food#1 | price | 5 |
 
 ```sh
 // output:
