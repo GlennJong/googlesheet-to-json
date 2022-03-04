@@ -7,10 +7,6 @@ Enter your `sheet_id` and `api_key` on `package.json` first, and make sure your 
 You can also change the output `path`.
 ```sh
 // package.json
-  "scripts": {
-    ...
-    "convert": "node jsonConverter.js"
-  },
   ...
   "converter": {
     "sheet_id": (sheet_id),
@@ -21,18 +17,17 @@ You can also change the output `path`.
 ```
 ---
 ## Command line
-Start with React to preview the conversion result.
-```sh
-npm run start
-```
-
 Convert sheet content to JSON file.
 ```sh
 npm run convert
 ```
+Start with React to preview the result of conversion.
+```sh
+npm run start
+```
 ---
 ## Example
-### Nested Objects.
+### Nested Objects
 | A | B | C |
 |---|---|---|
 | foo | bar |  |
@@ -51,7 +46,7 @@ npm run convert
 }
 ```
 
-### Array.
+### Arrays
 Use `#` to mark the index of the array.
 | A | B | C | D |
 |---|---|---|---|
