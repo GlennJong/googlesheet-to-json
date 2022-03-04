@@ -34,9 +34,8 @@ npm run start
 | 2 | parent | child_a | Peter |
 | 3 | parent | child_b | Tom |
 
-
-```sh
-// output:
+output:
+```json
 {
   "foo": "bar",
   "parent": {
@@ -57,8 +56,8 @@ Use `#` to mark the index of the array.
 | 5 | store | food#1 | name | soda |
 | 6 | store | food#1 | price | 5 |
 
-```sh
-// output:
+output:
+```json
 {
   "store": {
     "fruit": [
