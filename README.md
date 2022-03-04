@@ -88,8 +88,8 @@ Use `#` to mark the index of the array.
   },
   ...
   "converter": {
-    "id": (sheet_id),
-    "key": (googleapi key),
+    "sheet_id": (sheet_id),
+    "api_key": (googleapi key),
     "path": "public/json/"
   }
   ...
