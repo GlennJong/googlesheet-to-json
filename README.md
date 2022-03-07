@@ -1,5 +1,5 @@
 # Google sheet content converter
-Convert Google sheet content to JSON file. Easily convert to nested objects and also to arrays.<br />
+Convert Google sheet content to JSON file. Easily convert to nested objects and arrays.<br />
 It helps manage some text content on Google sheet, and it's easy to output.
 
 ## Setting
